@@ -1,3 +1,3 @@
 [submodule "themes/butterfly"]
     path = themes/butterfly
-    url = https://github.com/hexojs/hexo-theme-butterfly.git
+    url = git@github.com:hexojs/hexo-theme-butterfly.git
