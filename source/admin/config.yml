@@ -1,0 +1,19 @@
+backend:
+  name: github
+  repo: wangyaoqi/wangyaoqi.github.io # 你的 GitHub 仓库名
+  branch: main # 默认分支
+
+media_folder: "source/images" # 媒体文件存储路径
+public_folder: "/images" # 媒体文件在网站中的访问路径
+
+collections:
+  - name: "posts" # 集合名称
+    label: "Posts" # 后台显示的名称
+    folder: "source/_posts" # Markdown 文件存储路径
+    create: true # 允许创建新文章
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # 文件命名规则
+    fields: # 文章字段
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
