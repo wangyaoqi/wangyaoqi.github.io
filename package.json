@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "hexo": "^7.0.0",
+    "hexo-admin": "^2.3.0",
     "hexo-asset-image": "https://github.com/CodeFalling/hexo-asset-image.git",
     "hexo-deployer-git": "^4.0.0",
     "hexo-generator-archive": "^2.0.0",
